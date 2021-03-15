@@ -1,0 +1,122 @@
+mar  2 gen 2018, 15.05.29, UTC
+
+
+VALIDATION REPORT
+tempo di elaborazione:	0 min 9 sec
+
+biflussi processati:		738
+biflussi classificati:		412
+biflussi non classificati:	326
+
+biflussi OK:			41
+biflussi N:			0
+biflussi NV:			150
+biflussi NOT_TCP:		221
+
+REFINING REPORT
+tempo di elaborazione:	5 min 28 sec
+biflussi VAL:		138
+
+OK:	 la classificazione della tupla è stata validata con esito
+	 positivo confrontando con il file di log.
+
+N:	 le informazioni fornite dal file di log non sono sufficienti
+	 per validare la classificazione della tupla.
+
+NV:	 la classificazione non è validabile tramite il file di log
+	 in cui non vi sono riferimenti alla tupla.
+
+NOT_TPC: biflussi con protocollo non TCP non validabili tramite log.
+
+VAL:	 classificazioni precedentemente non validate con i file di log
+	 e ora validate tramite l'analisi dei file pcap
+
+NET OCCURRENCES
+    119 Amazon.com
+      1 Boxed IT Ltd.
+      9 Consortium GARR
+      1 Electronic Communities Ltd
+    248 Facebook
+      6 Fastly
+      8 Google
+    313 Google Inc.
+      1 Interoute Communications Limited
+      1 Metrolink S.R.L.
+     28 NOTFOUND
+      3 Prometeus di Daniela
+
+NET OCCURRENCES FOR NC BIFLOW
+    117 Amazon.com, Inc.
+      7 Consortium GARR
+     97 Facebook, Inc.
+      3 Fastly
+     82 Google Inc.
+     20 NOTFOUND
+
+ TRAFFIC ORIGIN
+	app	net
+      4 -	Amazon.com, Inc.
+    194 DNS	Google Inc.
+     20 Facebook	
+    113 Facebook	Amazon.com, Inc.
+      7 Facebook	Consortium GARR
+    218 Facebook	Facebook, Inc.
+      3 Facebook	Fastly
+     85 Facebook	Google Inc.
+      1 Google	Amazon.com, Inc.
+     54 Google	Google Inc.
+      3 HTTP	Facebook, Inc.
+      6 MDNS	
+      1 NTP	Boxed IT Ltd.
+      1 NTP	Electronic Communities Ltd
+      1 NTP	Interoute Communications Limited
+      1 NTP	Metrolink S.R.L.
+      3 NTP	Prometeus di Daniela
+      2 RTCP	
+      2 SSL_with_certificate	Amazon.com, Inc.
+      2 SSL_with_certificate	Consortium GARR
+      2 SSL_with_certificate	Facebook, Inc.
+      3 SSL_with_certificate	Fastly
+     12 STUN	Facebook, Inc.
+
+HOST NAME OCCURRENCES IN DNS REQUEST
+    474 
+      5 2.android.pool.ntp.org
+      2 account.cyngn.com
+      2 android.clients.google.com
+     13 api.facebook.com
+      4 b-api.facebook.com
+      5 b-graph.facebook.com
+      4 b-www.facebook.com
+      1 cdn.fbsbx.com
+     17 edge-mqtt.facebook.com
+      4 external-mxp1-1.xx.fbcdn.net
+     29 graph.facebook.com
+      3 h.facebook.com
+      1 lh3.ggpht.com
+      1 lh4.googleusercontent.com
+      1 lh5.googleusercontent.com
+      1 lh6.googleusercontent.com
+      4 lithium.facebook.com
+      2 lookaside.facebook.com
+      1 media1.giphy.com
+      1 media2.giphy.com
+      1 media3.giphy.com
+      1 media.tenor.co
+      1 m.facebook.com
+     17 mqtt-mini.facebook.com
+      6 play.googleapis.com
+      3 portal.fb.com
+      1 r2---sn-b5gg-ca9e.gvt1.com
+      1 r3---sn-b5gg-ca9e.gvt1.com
+      1 rupload.facebook.com
+      1 safebrowsing.googleapis.com
+     14 scontent-mxp1-1.xx.fbcdn.net
+     11 scontent.xx.fbcdn.net
+      1 shopvac.cyngn.com
+     15 static.xx.fbcdn.net
+      3 stats.cyanogenmod.org
+      1 stun.fbsbx.com
+     13 video-mxp1-1.xx.fbcdn.net
+      1 www.facebook.com
+      2 www.googleapis.com
